@@ -5,8 +5,8 @@ int main() {
     // Write C code here
    int N; 
    scanf("%d", &N);
-   int i; 
-   for (i=1; i<=N; i++) {
+    
+   for (int i=1; i<=N; i++) {
        if (N==1) {
            printf("%d\n", -1); 
        }
