@@ -1,0 +1,1 @@
+{"name":"Local: A_Summation","url":"d:\\Phitron\\Phitron\\7.5-Module - Practice Day\\A_Summation.c","tests":[{"id":1713373398374,"input":"4\n7 2 1 3","output":"13"},{"id":1713373493473,"input":"3\n-1 2 -3","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron\\Phitron\\7.5-Module - Practice Day\\A_Summation.c","group":"local","local":true}
