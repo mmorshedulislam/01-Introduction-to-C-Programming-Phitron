@@ -21,16 +21,14 @@ int main() {
     int a, b;
     
     for (int i = 0; i<n+m; i++) {
-      
-        
-    if(i<n){
-        ans[i] = arr1[i];
-    } else{
-        ans[i] = arr2[i-n];
+        if(i<n){
+            ans[i] = arr1[i];
+        } else {
+            ans[i] = arr2[i-n];
         }
     }
     
-    for(int i = 0; i<n+m; i++){
+    for(int i = 0; i<n+m; i++) {
         printf("%d ", ans[i]);
     }
     
