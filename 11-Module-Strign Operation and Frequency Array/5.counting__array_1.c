@@ -10,7 +10,7 @@ int main()
         scanf("%d", &a[i]);
     }
 
-    int cnt[7] = {};
+    int cnt[7] = {0};
     for (int i = 0; i < n; i++) {
         int val = a[i];
         cnt[val]++;
