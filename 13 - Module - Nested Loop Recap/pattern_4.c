@@ -24,7 +24,7 @@ int main () {
 }
 
 // input 
-5
+// 5
 
 // output
 //     *
