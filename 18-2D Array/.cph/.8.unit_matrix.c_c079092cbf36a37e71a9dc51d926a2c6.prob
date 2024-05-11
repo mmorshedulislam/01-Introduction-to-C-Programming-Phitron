@@ -1,0 +1,1 @@
+{"name":"Local: 8","url":"d:\\Phitron\\Phitron\\18-2D Array\\8.unit_matrix.c","tests":[{"id":1715366596707,"input":"3 3\n1 0 0\n0 1 0\n0 0 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron\\Phitron\\18-2D Array\\8.unit_matrix.c","group":"local","local":true}
