@@ -1,24 +1,27 @@
 #include <stdio.h>
 
-int main () {
+int main()
+{
     int row, col, exact;
-    scanf("%d %d", &row,&col);
+    scanf("%d %d", &row, &col);
 
     int arr[row][col];
-    
-    for (int i = 0; i < row; i++) {
-        for (int j = 0; j < col; j++) {
+
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < col; j++)
+        {
             scanf("%d", &arr[i][j]);
         }
     }
     scanf("%d", &exact);
-    
+
     // exact column
-    for (int i = 0; i < row; i++) {
+    for (int i = 0; i < row; i++)
+    {
         printf("%d ", arr[i][exact]);
         printf("\n");
     }
-
 }
 
 // input
@@ -30,7 +33,7 @@ int main () {
 // 1
 
 // output
-// 6 
-// 5 
-// 2 
-// 8 
+// 6
+// 5
+// 2
+// 8

@@ -1,18 +1,21 @@
 #include <stdio.h>
 
-void fun (int i) {
-    // base case 
-    if (i==6) return;
+void fun(int i)
+{
+    // base case
+    if (i == 6)
+        return;
     printf("%d\n", i);
-    fun(i+1);
+    fun(i + 1);
 }
 
-int main () {
+int main()
+{
     fun(1);
     return 0;
 }
 
-// out put 
+// output
 // 1
 // 2
 // 3

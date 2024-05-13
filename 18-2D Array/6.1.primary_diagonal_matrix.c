@@ -15,6 +15,7 @@ int main()
     }
 
     int flag = 1;
+
     if (row != col)
     {
         flag = 0;
@@ -46,7 +47,6 @@ int main()
     }
 }
 
-
 // input 1
 // 3 3
 // 1 0 0
@@ -55,7 +55,6 @@ int main()
 
 // output 1
 // Primary diagonal
-
 
 // input 2
 // 3 3

@@ -47,7 +47,7 @@ int main()
     else
     {
         printf("Not Scalar Matrix\n");
-    }   
+    }
 }
 
 // input 1
