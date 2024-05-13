@@ -1,17 +1,22 @@
 // Online C compiler to run C program online
 #include <stdio.h>
 
-int main() {
+int main()
+{
     // Write C code here
     int N;
     // EOF = end of file
-    while (scanf("%d\n", &N) != EOF) {
-        if (N==1999) {
+    while (scanf("%d\n", &N) != EOF)
+    {
+        if (N == 1999)
+        {
             printf("Correct\n");
             break;
-        } else {
+        }
+        else
+        {
             printf("Wrong\n");
-        } 
+        }
     }
 
     return 0;

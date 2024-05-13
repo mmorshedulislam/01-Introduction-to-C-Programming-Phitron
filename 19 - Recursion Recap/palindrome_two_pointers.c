@@ -2,11 +2,12 @@
 
 int main()
 {
-    char s[1001];
+    char s[1000+1];
     scanf("%s", &s);
 
     int i = 0, j = strlen(s) - 1;
     int flag = 1;
+
     while (i < j)
     {
         if (s[i] != s[j])

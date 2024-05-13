@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main () {
+int main()
+{
     int x = 100;
     int *ptr = &x;
 
@@ -9,9 +10,9 @@ int main () {
     printf("value of ptr OR address of x: %p\n", ptr);
     printf("address of ptr: %p\n", &ptr);
 
-    x=200;
-    *ptr=300;
-    
+    x = 200;
+    *ptr = 300;
+
     return 0;
 }
 

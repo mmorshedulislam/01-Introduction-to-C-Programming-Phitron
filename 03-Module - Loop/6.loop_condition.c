@@ -1,12 +1,17 @@
 #include <stdio.h>
 
-int main () {
+int main()
+{
 
-    int i; 
-    for (i=1; i<=10; i++) {
-        if (i%2 == 0) {
+    int i;
+    for (i = 1; i <= 10; i++)
+    {
+        if (i % 2 == 0)
+        {
             printf("%d - Even \n", i);
-        } else {
+        }
+        else
+        {
             printf("%d - Odd \n", i);
         }
     }

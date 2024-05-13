@@ -3,7 +3,8 @@
 // global variables
 int x = 500;
 
-void fun () {
+void fun()
+{
     // value of the function
     int s = 100;
     printf("%d\n", s);
@@ -12,7 +13,8 @@ void fun () {
     printf("x from fun: %d\n", x);
 }
 
-int main () {
+int main()
+{
     // value of the function
     int s = 200;
     printf("%d\n", s);

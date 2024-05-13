@@ -1,13 +1,18 @@
 #include <stdio.h>
-int main () 
+int main()
 {
-    int n = -55; 
-    if (n > 0) {
-        printf ("Positive");
-    } else if (n < 0) {
-        printf ("Negative");
-    } else {
-        printf ("Zero");
+    int n = -55;
+    if (n > 0)
+    {
+        printf("Positive");
+    }
+    else if (n < 0)
+    {
+        printf("Negative");
+    }
+    else
+    {
+        printf("Zero");
     };
-    return 0; 
+    return 0;
 }

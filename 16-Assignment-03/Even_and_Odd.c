@@ -1,27 +1,34 @@
 // Online C compiler to run C program online
 #include <stdio.h>
 
-void odd_even () {
+void odd_even()
+{
     int n;
     scanf("%d", &n);
     int arr[n];
     int odd = 0, even = 0;
-    
-    for (int i = 0; i < n; i++) {
+
+    for (int i = 0; i < n; i++)
+    {
         scanf("%d", &arr[i]);
     }
-    
-    for (int i = 0; i < n; i++) {
-        if (arr[i] % 2 == 0) {
+
+    for (int i = 0; i < n; i++)
+    {
+        if (arr[i] % 2 == 0)
+        {
             even++;
-        } else if (arr[i] % 2 == 1) {
+        }
+        else if (arr[i] % 2 == 1)
+        {
             odd++;
         }
     }
     printf("%d %d", even, odd);
 }
 
-int main() {
+int main()
+{
     // Write C code here
     odd_even();
 

@@ -1,26 +1,30 @@
 // Online C compiler to run C program online
 #include <stdio.h>
 
-int main() {
+int main()
+{
     // Write C code here
     int n;
     scanf("%d", &n);
-    int arr[n+1];
-    
-    for (int i=0; i<n; i++) {
+    int arr[n + 1];
+
+    for (int i = 0; i < n; i++)
+    {
         scanf("%d", &arr[i]);
     }
-    
-    int pos, val; 
+
+    int pos, val;
     scanf("%d %d", &pos, &val);
-    
-    for (int i = n; i>=pos+1; i--) {
-        arr[i] = arr[i-1];
+
+    for (int i = n; i >= pos + 1; i--)
+    {
+        arr[i] = arr[i - 1];
     }
-    
+
     arr[pos] = val;
-    
-    for (int i=0; i<=n;i++) {
+
+    for (int i = 0; i <= n; i++)
+    {
         printf("%d ", arr[i]);
     }
 

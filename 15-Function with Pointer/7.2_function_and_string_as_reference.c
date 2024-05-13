@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-void fun (char * ar) {
-    
+void fun(char *ar)
+{
+
     ar[0] = 'G';
 }
 
-int main () {
+int main()
+{
     char ar[] = "Hello";
 
     fun(ar);
@@ -15,4 +17,3 @@ int main () {
 
 // output
 // Gello
-

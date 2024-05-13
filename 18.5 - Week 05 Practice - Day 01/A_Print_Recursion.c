@@ -1,15 +1,17 @@
 #include <stdio.h>
 
-void fun(int n, int i){
-    if (i == n) return;
+void fun(int n, int i)
+{
+    if (i == n)
+        return;
     printf("%s", "I love Recursion\n");
     fun(n, i + 1);
 }
 
-int main () 
+int main()
 {
-    int n; 
-    scanf ("%d", &n);
+    int n;
+    scanf("%d", &n);
 
     fun(n, 0);
     return 0;

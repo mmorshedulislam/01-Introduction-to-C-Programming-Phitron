@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 
-int main () {
-    char s[100]; 
-    scanf ("%s", s);
-    int cnt[26]={0};
-    
-    for (int i = 0; i < strlen(s); i++){
-        int value = s[i]-'a';
+int main()
+{
+    char s[100];
+    scanf("%s", s);
+    int cnt[26] = {0};
+
+    for (int i = 0; i < strlen(s); i++)
+    {
+        int value = s[i] - 'a';
         cnt[value]++;
     }
 
@@ -17,12 +19,14 @@ int main () {
     // }
 
     // output 02
-    for (int i = 0; i < strlen(s); i++){
-        int val = s[i]-'a';
-        if (cnt[val] != 0) {
-            printf ("%c = %d\n", val+'a', cnt[val]);
+    for (int i = 0; i < strlen(s); i++)
+    {
+        int val = s[i] - 'a';
+        if (cnt[val] != 0)
+        {
+            printf("%c = %d\n", val + 'a', cnt[val]);
         }
-        cnt[val]=0;
+        cnt[val] = 0;
     }
 
     return 0;
@@ -58,7 +62,6 @@ int main () {
 // x = 0
 // y = 0
 // z = 0
-
 
 // output 02
 // m = 1

@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main()
+{
     // Write C code here
     char a[100];
     // gets(a); // not recommended (enter not acceptable)

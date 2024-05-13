@@ -32,3 +32,10 @@ int main()
     printf("%d", ans);
     return 0;
 }
+
+// input 
+// 5
+// 10 20 40 50 30
+
+// output
+// 50

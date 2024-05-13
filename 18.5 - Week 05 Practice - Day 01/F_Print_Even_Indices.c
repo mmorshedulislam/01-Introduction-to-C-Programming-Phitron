@@ -2,7 +2,8 @@
 
 void fun(int arr[], int n, int i)
 {
-    if (i == n) return;
+    if (i == n)
+        return;
 
     fun(arr, n, i + 1);
     if (i % 2 == 0)

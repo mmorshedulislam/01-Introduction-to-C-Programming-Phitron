@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main () {
-    int x = 500; 
-    printf("%d\n", x); // get value of x
+int main()
+{
+    int x = 500;
+    printf("%d\n", x);  // get value of x
     printf("%p\n", &x); // memory address of x
 
     // get memory address of x

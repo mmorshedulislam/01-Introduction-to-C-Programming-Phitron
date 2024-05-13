@@ -1,14 +1,18 @@
-#include <stdio.h> 
-int main () 
+#include <stdio.h>
+int main()
 {
-    int tk = 200000; 
+    int tk = 200000;
 
-    if (tk >= 5000) {
+    if (tk >= 5000)
+    {
         printf("Levis Bag\t");
-        if (tk >= 20000) {
+        if (tk >= 20000)
+        {
             printf("Gucci Bag");
         }
-    } else {
+    }
+    else
+    {
         printf("Something");
     }
 }

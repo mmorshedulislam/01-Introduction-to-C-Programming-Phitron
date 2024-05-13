@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main () {
+int main()
+{
 
     double x = 5.26;
     double *ptr = &x;
@@ -11,7 +12,7 @@ int main () {
 
     // de reference
     *ptr2 = 200.20;
-    
+
     printf("value of x - %0.2lf\n", x);
     printf("value of x - %0.2lf\n", *ptr);
     printf("size of ptr - %d\n", sizeof(ptr));

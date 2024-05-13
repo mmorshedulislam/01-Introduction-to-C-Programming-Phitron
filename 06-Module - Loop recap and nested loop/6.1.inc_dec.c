@@ -1,9 +1,10 @@
 // Online C compiler to run C program online
 #include <stdio.h>
 
-int main() {
+int main()
+{
     // Write C code here
-    int i = 10; 
+    int i = 10;
     int x, y;
 
     x = i++; // x=10, i=11 (post increment)
@@ -11,6 +12,6 @@ int main() {
 
     y = ++i; // y=12, i=12 (pre increment)
     printf("y=%d, i=%d\n", y, i);
-    
+
     return 0;
 }

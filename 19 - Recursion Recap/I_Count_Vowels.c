@@ -2,7 +2,6 @@
 
 int fun(char s[], int i)
 {
-
     if (s[i] == '\0')
     {
         return 0;
@@ -12,7 +11,7 @@ int fun(char s[], int i)
 
     if (s[i] >= 'A' && s[i] <= 'Z')
     {
-        s[i] = s[i] + 32;
+        s[i] = s[i] + 32; // convert to 32-bit or capital to small
     }
 
     if (s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u')
@@ -27,8 +26,8 @@ int fun(char s[], int i)
 
 int main()
 {
-    char s[205];
-    fgets(s, 205, stdin);
+    char s[201];
+    fgets(s, 201, stdin);
     int cnt = fun(s, 0);
     printf("%d\n", cnt);
     return 0;

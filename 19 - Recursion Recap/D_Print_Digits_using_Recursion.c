@@ -4,8 +4,8 @@ void fun(int n)
 {
     if (n == 0)
         return;
-    int x = n % 10;
-    fun(n / 10);
+    int x = n % 10; // input (1234) output (4)
+    fun(n / 10);    // input (1234) output (123)
     printf("%d ", x);
 }
 

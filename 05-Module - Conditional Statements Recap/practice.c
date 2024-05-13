@@ -1,14 +1,19 @@
 #include <stdio.h>
 
-int main () {
+int main()
+{
     int N;
-    
-    while (scanf("%d ", &N) != EOF) {
-        
-        if (N==2000) {
+
+    while (scanf("%d ", &N) != EOF)
+    {
+
+        if (N == 2000)
+        {
             printf("Correct\n");
             break;
-        } else {
+        }
+        else
+        {
             printf("Invalid\n");
         }
     }

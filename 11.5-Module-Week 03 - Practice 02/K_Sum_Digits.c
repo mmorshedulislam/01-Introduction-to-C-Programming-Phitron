@@ -2,21 +2,24 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main()
+{
     // Write C code here
     int n;
     scanf("%d", &n);
-    char a[n+1];
+    char a[n + 1];
     int sum = 0;
-    
-    for (int i=0; i<=n; i++) {
+
+    for (int i = 0; i <= n; i++)
+    {
         scanf("%c", &a[i]);
     }
-    
-    for (int i = 1; i<=n; i++) {
-        sum += a[i]-48;
+
+    for (int i = 1; i <= n; i++)
+    {
+        sum += a[i] - 48;
     }
-    
+
     printf("%d", sum);
     return 0;
 }

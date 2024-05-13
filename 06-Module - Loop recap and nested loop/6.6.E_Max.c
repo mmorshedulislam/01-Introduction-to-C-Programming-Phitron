@@ -2,23 +2,27 @@
 #include <stdio.h>
 #include <limits.h>
 
-int main() {
+int main()
+{
     // Write C code here
     int N, A, max = INT_MIN, min = INT_MAX;
-    scanf("%d", &N); 
+    scanf("%d", &N);
 
-    for (int i = 1; i<=N; i++) {
+    for (int i = 1; i <= N; i++)
+    {
         scanf("%d", &A);
-        if (A >= max) {
+        if (A >= max)
+        {
             max = A;
         }
-        if (A <= min) {
+        if (A <= min)
+        {
             min = A;
         }
     }
-    
-        printf("%d", max);
-        // printf("%d", min);
+
+    printf("%d", max);
+    // printf("%d", min);
 
     return 0;
 }

@@ -1,15 +1,17 @@
 #include <stdio.h>
 
-int main () {
+int main()
+{
     int n, firstDigit, lastDigit;
     printf("Enter any number: \n");
     scanf("%d", &n);
-    
-    lastDigit = n%10;
+
+    lastDigit = n % 10;
 
     firstDigit = n;
 
-    while (firstDigit >= 10) {
+    while (firstDigit >= 10)
+    {
         firstDigit = firstDigit / 10;
     }
 

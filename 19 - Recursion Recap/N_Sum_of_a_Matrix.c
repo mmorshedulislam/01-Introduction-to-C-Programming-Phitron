@@ -14,6 +14,7 @@ int main()
             scanf("%d", &a[i][j]);
         }
     }
+
     // scanf of B
     for (int i = 0; i < row; i++)
     {
@@ -22,6 +23,7 @@ int main()
             scanf("%d", &b[i][j]);
         }
     }
+
     // sum of A + B
     for (int i = 0; i < row; i++)
     {
@@ -30,6 +32,7 @@ int main()
             c[i][j] = a[i][j] + b[i][j];
         }
     }
+
     // sum of A + B
     for (int i = 0; i < row; i++)
     {
@@ -41,3 +44,14 @@ int main()
     }
     return 0;
 }
+
+// input
+// 2 3
+// 1 2 3
+// 4 5 6
+// 1 3 5
+// 7 9 11
+
+// output
+// 2 5 8
+// 11 14 17
