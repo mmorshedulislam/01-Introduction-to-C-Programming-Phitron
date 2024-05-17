@@ -2,7 +2,6 @@
 
 void fun(char *ar)
 {
-
     ar[0] = 'G';
 }
 

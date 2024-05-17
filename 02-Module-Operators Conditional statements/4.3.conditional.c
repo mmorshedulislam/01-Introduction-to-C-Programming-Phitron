@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main() {
+int main()
+{
 
     int tk = 12000;
     if (tk >= 5000)
@@ -18,7 +19,6 @@ int main() {
     {
         printf("kotao jabo na");
     }
-
 
     return 0;
 }
